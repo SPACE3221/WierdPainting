@@ -3,13 +3,15 @@ body {
     padding: 0;
     margin: 0;
 }
-
+/*This is a comment*/
 .mainDiv {
-    width: 600px;
+    background-color: #2847d4;
     height: 600px;
+    width: 600px;
     margin: 0 auto;
-    background-color: cornflowerblue;
+    padding: 0;
     font-size: 0;
+    
 }
 
 .mainDiv > div {
@@ -19,5 +21,38 @@ body {
     margin: 0;
     padding: 0;
     border: 1px solid black;
+    display: inline-block;
 }
+
+
+.red {
+
+    background-color:rgba(253, 8, 8, 0.897);
+    
+}
+
+.redCircle {
+    background-color:rgba(253, 8, 8, 0.897);
+    border-radius: 50%;
+}
+.yellow{    
+    
+    background-color: yellow; 
+
+
+}
+.yellowCircle {
+    background-color:yellow;
+    border-radius: 50%;
+}
+.greenCircle {
+    background-color:green;
+    border-radius: 50%;
+}
+.green {
+   
+    background-color: green;
+
+}
+
 
